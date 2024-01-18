@@ -3069,7 +3069,7 @@ function klona(x) {
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "cd04d4f5-e9ae-4483-9a7d-d78dfabaa15a"
+    "buildId": "a7a1bd97-8865-4c5f-97fe-c3f133b2d271"
   }
 };
 
@@ -4476,7 +4476,7 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets$1);
 
-storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"D:\\laragon\\www\\nuxt\\nuxt-ssr\\.data\\kv"}));
+storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"/opt/lampp/htdocs/nuxt/nuxt-ssr/.data/kv"}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -4957,65 +4957,65 @@ const assets = {
   "/favicon.ico": {
     "type": "image/vnd.microsoft.icon",
     "etag": "\"10be-n8egyE9tcb7sKGr/pYCaQ4uWqxI\"",
-    "mtime": "2024-01-04T12:58:42.000Z",
+    "mtime": "2024-01-18T13:34:25.417Z",
     "size": 4286,
     "path": "../public/favicon.ico"
   },
   "/_nuxt/entry.AeIfFhMf.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"2f6e-7MmB2IDGvPgSQJxrI1/r9YvpI9g\"",
-    "mtime": "2024-01-08T09:47:21.038Z",
+    "mtime": "2024-01-18T13:34:25.409Z",
     "size": 12142,
     "path": "../public/_nuxt/entry.AeIfFhMf.css"
   },
-  "/_nuxt/entry.j5YoGkHQ.js": {
+  "/_nuxt/entry.zc8pUxlW.js": {
     "type": "application/javascript",
-    "etag": "\"32457-0VuZ/J1VKLwcS5hmdonMEbUTGaY\"",
-    "mtime": "2024-01-08T09:47:21.038Z",
+    "etag": "\"32457-IOggesnMbAd6KzBcQlikwG8xdkc\"",
+    "mtime": "2024-01-18T13:34:25.409Z",
     "size": 205911,
-    "path": "../public/_nuxt/entry.j5YoGkHQ.js"
+    "path": "../public/_nuxt/entry.zc8pUxlW.js"
   },
-  "/_nuxt/error-404.O83wxLFd.js": {
+  "/_nuxt/error-404.OrHoc6PQ.js": {
     "type": "application/javascript",
-    "etag": "\"1909-uS1i7gfkEOIx3ajK0dsQZstmWr0\"",
-    "mtime": "2024-01-08T09:47:21.039Z",
+    "etag": "\"1909-A+hulKpzIpomzxnHmeCWmMoRuSA\"",
+    "mtime": "2024-01-18T13:34:25.409Z",
     "size": 6409,
-    "path": "../public/_nuxt/error-404.O83wxLFd.js"
+    "path": "../public/_nuxt/error-404.OrHoc6PQ.js"
   },
   "/_nuxt/error-404.qFGwA4uS.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"e26-9UI2Z985OY4ttYcbyiWh91cxpnM\"",
-    "mtime": "2024-01-08T09:47:21.038Z",
+    "mtime": "2024-01-18T13:34:25.409Z",
     "size": 3622,
     "path": "../public/_nuxt/error-404.qFGwA4uS.css"
   },
-  "/_nuxt/error-500.eO6Mgyfp.js": {
+  "/_nuxt/error-500.FPFvmvZD.js": {
     "type": "application/javascript",
-    "etag": "\"756-v8XaigOJfltE0k78qxVnUHdiWOo\"",
-    "mtime": "2024-01-08T09:47:21.038Z",
+    "etag": "\"756-r2K0EtVxKr4ESLM/Qgvp3SHeGD4\"",
+    "mtime": "2024-01-18T13:34:25.409Z",
     "size": 1878,
-    "path": "../public/_nuxt/error-500.eO6Mgyfp.js"
+    "path": "../public/_nuxt/error-500.FPFvmvZD.js"
   },
   "/_nuxt/error-500.V0P2JAtD.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"79e-ByRo+49BgcevWdRjJy3CMx2IA5k\"",
-    "mtime": "2024-01-08T09:47:21.038Z",
+    "mtime": "2024-01-18T13:34:25.413Z",
     "size": 1950,
     "path": "../public/_nuxt/error-500.V0P2JAtD.css"
   },
   "/_nuxt/builds/latest.json": {
     "type": "application/json",
-    "etag": "\"47-sChFGepkJ4ojvgUsphN4l899RLQ\"",
-    "mtime": "2024-01-08T09:47:22.114Z",
+    "etag": "\"47-eVhXGa6euwDrBEpQgZs8VAAHUV0\"",
+    "mtime": "2024-01-18T13:34:25.397Z",
     "size": 71,
     "path": "../public/_nuxt/builds/latest.json"
   },
-  "/_nuxt/builds/meta/cd04d4f5-e9ae-4483-9a7d-d78dfabaa15a.json": {
+  "/_nuxt/builds/meta/a7a1bd97-8865-4c5f-97fe-c3f133b2d271.json": {
     "type": "application/json",
-    "etag": "\"8b-NmVZcHivaoiN2R+hLiKpAGXRv9c\"",
-    "mtime": "2024-01-08T09:47:22.114Z",
+    "etag": "\"8b-AHTg8ONjStYpgg/n1vKPdu+rsT8\"",
+    "mtime": "2024-01-18T13:34:25.389Z",
     "size": 139,
-    "path": "../public/_nuxt/builds/meta/cd04d4f5-e9ae-4483-9a7d-d78dfabaa15a.json"
+    "path": "../public/_nuxt/builds/meta/a7a1bd97-8865-4c5f-97fe-c3f133b2d271.json"
   }
 };
 
@@ -5211,12 +5211,12 @@ const _f4b49z = eventHandler((event) => {
   return readAsset(id);
 });
 
-const _lazy_ROkpb2 = () => import('../handlers/renderer.mjs');
+const _lazy_hSsgfb = () => import('../handlers/renderer.mjs');
 
 const handlers = [
   { route: '', handler: _f4b49z, lazy: false, middleware: true, method: undefined },
-  { route: '/__nuxt_error', handler: _lazy_ROkpb2, lazy: true, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_ROkpb2, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_hSsgfb, lazy: true, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_hSsgfb, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
