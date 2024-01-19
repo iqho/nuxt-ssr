@@ -622,15 +622,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-OJoWK1li.mjs').then((m) => m.default || m)
-  },
-  {
-    name: "iqbal",
-    path: "/iqbal",
-    meta: {},
-    alias: [],
-    redirect: void 0,
-    component: () => import('./_nuxt/iqbal-9AtH1Jkp.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-igRRo6i1.mjs').then((m) => m.default || m)
   },
   {
     name: "products-slug",
@@ -638,7 +630,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/_slug_-nz8Sy1Gz.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_slug_-jwItubyv.mjs').then((m) => m.default || m)
   },
   {
     name: "products",
@@ -646,7 +638,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-boyC8NE6.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index--_TWzqJr.mjs').then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {

@@ -1,6 +1,6 @@
 import { u as useRoute } from '../server.mjs';
 import { ref, resolveComponent, withCtx, createTextVNode, unref, useSSRContext } from 'vue';
-import { ssrRenderAttrs, ssrRenderComponent, ssrRenderAttr, ssrInterpolate } from 'vue/server-renderer';
+import { ssrRenderAttrs, ssrRenderComponent, ssrRenderAttr, ssrRenderStyle, ssrInterpolate } from 'vue/server-renderer';
 import '../../nitro/node-server.mjs';
 import 'node:http';
 import 'node:https';
@@ -34,7 +34,7 @@ const _sfc_main = {
         _: 1
       }, _parent));
       if (unref(product)) {
-        _push(`<div><img${ssrRenderAttr("src", unref(product).thumbnail)}${ssrRenderAttr("alt", unref(product).title)}><h1>${ssrInterpolate(unref(product).title)}</h1><p>${ssrInterpolate(unref(product).price)}</p><p>${ssrInterpolate(unref(product).description)}</p></div>`);
+        _push(`<div><img${ssrRenderAttr("src", unref(product).thumbnail)}${ssrRenderAttr("alt", unref(product).title)} style="${ssrRenderStyle({ "max-height": "200px" })}"><h1>Name: ${ssrInterpolate(unref(product).title)}</h1><p>Price: $${ssrInterpolate(unref(product).price)}</p><p>Description: ${ssrInterpolate(unref(product).description)}</p></div>`);
       } else {
         _push(`<!---->`);
       }
@@ -50,4 +50,4 @@ _sfc_main.setup = (props, ctx) => {
 };
 
 export { _sfc_main as default };
-//# sourceMappingURL=_slug_-nz8Sy1Gz.mjs.map
+//# sourceMappingURL=_slug_-jwItubyv.mjs.map

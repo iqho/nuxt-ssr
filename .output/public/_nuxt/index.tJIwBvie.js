@@ -1,1 +1,0 @@
-import{_ as r,c as a,b as e,w as c,a as s,n as o,o as _,d as l}from"./entry.t9IOCSAC.js";const i={},d=s("h1",null,"My App",-1);function u(p,f){const t=o("router-link"),n=o("router-view");return _(),a("div",null,[d,e(t,{to:"/iqbal"},{default:c(()=>[l("Iqbal")]),_:1}),e(n)])}const x=r(i,[["render",u]]);export{x as default};

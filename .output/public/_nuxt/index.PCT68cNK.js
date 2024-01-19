@@ -1,0 +1,1 @@
+import{_ as r,c,b as e,w as s,a,n as o,o as _,d}from"./entry.4rVgp4tK.js";const l={},u=a("h1",null,"My App",-1);function i(p,f){const t=o("router-link"),n=o("router-view");return _(),c("div",null,[u,e(t,{to:"/products"},{default:s(()=>[d("Products")]),_:1}),e(n)])}const x=r(l,[["render",i]]);export{x as default};

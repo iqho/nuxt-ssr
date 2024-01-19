@@ -17,13 +17,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_router_link = resolveComponent("router-link");
   const _component_router_view = resolveComponent("router-view");
   _push(`<div${ssrRenderAttrs(_attrs)}><h1>My App</h1>`);
-  _push(ssrRenderComponent(_component_router_link, { to: "/iqbal" }, {
+  _push(ssrRenderComponent(_component_router_link, { to: "/products" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
-        _push2(`Iqbal`);
+        _push2(`Products`);
       } else {
         return [
-          createTextVNode("Iqbal")
+          createTextVNode("Products")
         ];
       }
     }),
@@ -41,4 +41,4 @@ _sfc_main.setup = (props, ctx) => {
 const index = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
 
 export { index as default };
-//# sourceMappingURL=index-OJoWK1li.mjs.map
+//# sourceMappingURL=index-igRRo6i1.mjs.map
