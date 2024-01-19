@@ -4,10 +4,10 @@
         <router-link to="/products">Back</router-link>
 
         <div v-if="product">
-            <img :src="product.thumbnail" :alt="product.title" />
-            <h1>{{ product.title }}</h1>
-            <p>{{ product.price }}</p>
-            <p>{{ product.description }}</p>
+            <img :src="product.thumbnail" :alt="product.title" style="max-height:200px;" />
+            <h1>Name: {{ product.title }}</h1>
+            <p>Price: ${{ product.price }}</p>
+            <p>Description: {{ product.description }}</p>
         </div>
 
     </div>

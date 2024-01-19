@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>Products</h1>
+        <router-link to="/">Home</router-link>
         <div>
             <ul>
                 <li v-for="product in products" :key="product.id">
