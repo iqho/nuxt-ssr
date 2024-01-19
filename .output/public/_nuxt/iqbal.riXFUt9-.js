@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t,a as s}from"./entry.t9IOCSAC.js";const a={},c=s("h1",null,"Iqbal",-1),n=[c];function r(_,l,d,i,p,f){return t(),o("div",null,n)}const h=e(a,[["render",r]]);export{h as default};
